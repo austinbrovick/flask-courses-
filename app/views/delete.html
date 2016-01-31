@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title></title>
+
+
+</head>
+<body>
+  <h1>Are you sure you want to delete the following course?</h1>
+  <h3>Name: {{course[0]['title']}}</h3>
+  <h4>Description: {{course[0]["description"]}}</h4>
+  <form action='/yes_delete/{{course[0]["id"]}}' method='post'>
+    <input type='submit' value='YES'>
+  </form>
+  <form action='/no' method='post'>
+    <input type='submit' value='NO'>
+  </form>
+
+</body>
+</html>

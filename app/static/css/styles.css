@@ -1,3 +1,14 @@
-* {
-  font-family: monaco;
+body {
+  background-color: orange;
 }
+td {
+  margin: 30px;
+}
+input {
+  display: block;
+}
+
+textarea {
+  display: block;
+}
+
